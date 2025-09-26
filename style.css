@@ -1,8 +1,66 @@
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    margin-top: 50px;
+/* Reset defaults */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-h1 {
-    color: blue;
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #f5f5f5;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #4a90e2;
+    color: white;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    font-family: 'Pacifico', cursive;
+    font-size: 2rem;
+}
+
+nav {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-btn {
+    text-decoration: none;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.nav-btn:hover {
+    background: rgba(255,255,255,0.3);
+}
+
+/* Main content */
+main {
+    padding: 80px 40px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #4a90e2;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+    margin-top: 50px;
+    font-size: 0.9rem;
 }
